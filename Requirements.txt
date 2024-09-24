@@ -1,0 +1,23 @@
+1.	Amazon EC2 Instance
+
+•	To create an AWS EC2 instance, you can opt for a Free Tier eligible instance, and then connect it remotely to your local system or Visual Studio Code using SSH.
+•	You can check detail steps how to remotely connect EC2 using SSH
+In the following article 
+    https://medium.com/@nikitanikumbh13/how-to-remotely-ssh-connect-visual-studio-code-to-aws-ec2-f21b091ef7f1
+
+
+2.	Opnweather API 
+
+•   Visit OpenWeather to access the weather data API.
+•   Create an Account on the website to obtain your API key.
+•   Navigate to the API section, select "Current Weather Data", and then open the "API docs" for detailed documentation.
+•   Build an API request using the city name to extract weather data.
+•   Use the following URL to fetch weather data for a specific city: https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+•	  Replace {city name} with the desired city.
+•	  Replace {API key} with your generated API key.
+
+3.	Airflow
+
+  You need to install Airflow on an EC2 instance. For detailed steps, please refer to the following article.
+  https://medium.com/@nikitanikumbh13/step-by-step-guide-how-to-install-apache-airflow-on-an-aws-ec2-instance-d0d5b5283843
+ 
